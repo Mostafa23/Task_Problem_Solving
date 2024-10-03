@@ -5,8 +5,7 @@ function filterEvenNumbers(arr) {
     return arr.filter(num => num % 2 === 0);
 }
 
-// Example:
-console.log(filterEvenNumbers([1, 2, 3, 4, 5, 6])); // Output: [2, 4, 6]
+console.log(filterEvenNumbers([1, 2, 3, 4, 5, 6]));
 
 // // OTHER =>
 
@@ -20,8 +19,7 @@ function filterEvenNumbers(arr) {
     return evenNumbers;
 }
 
-// Example:
-console.log(filterEvenNumbers([1, 2, 3, 4, 5, 6])); // Output: [2, 4, 6]
+console.log(filterEvenNumbers([1, 2, 3, 4, 5, 6])); 
 
 
 // // // Exercise 2: Find the Largest Number
@@ -31,8 +29,7 @@ function findLargestNumber(arr) {
     return Math.max(...arr);
 }
 
-// Example:
-console.log(findLargestNumber([3, 5, 7, 2, 9])); // Output: 9
+console.log(findLargestNumber([3, 5, 7, 2, 9])); 
 
 // // OTHER =>
 
@@ -46,8 +43,7 @@ function findLargestNumber(arr) {
     return largest;
 }
 
-// Example:
-console.log(findLargestNumber([3, 5, 7, 2, 9])); // Output: 9
+console.log(findLargestNumber([3, 5, 7, 2, 9])); 
 
 
 // // // Exercise 3: Reverse a String
@@ -57,8 +53,7 @@ function reverseString(str) {
     return str.split('').reverse().join('');
 }
 
-// Example:
-console.log(reverseString("hello")); // Output: "olleh"
+console.log(reverseString("hello"));
 
 // // OTHER =>
 
@@ -70,8 +65,7 @@ function reverseString(str) {
     return reversed;
 }
 
-// Example:
-console.log(reverseString("hello")); // Output: "olleh"
+console.log(reverseString("hello")); 
 
 
 // // // Exercise 4: Remove Duplicates
@@ -81,8 +75,7 @@ function removeDuplicates(arr) {
     return [...new Set(arr)];
 }
 
-// Example:
-console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5])); // Output: [1, 2, 3, 4, 5]
+console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]));
 
 // // OTHER =>
 
@@ -103,5 +96,4 @@ function removeDuplicates(arr) {
     return uniqueArr;
 }
 
-// Example:
-console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5])); // Output: [1, 2, 3, 4, 5]
+console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]));
